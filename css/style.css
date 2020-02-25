@@ -1,0 +1,421 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+body{
+	font-family: Asap, Arial, sans-serif;
+	background-color: #FFF;
+	color: black;
+	margin: 0px;
+}
+a.divlink {
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	cursor: pointer;
+}
+.adSize{
+	width: 300px;
+	height: 250px;
+}
+#banner {
+	position: absolute;
+	background: white;
+	overflow: hidden; 
+	opacity: 0;
+	cursor: pointer;
+}
+#bg{
+	background-color: #e20074;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px; 
+	top: 0px;
+}
+#t_logo_container {
+	position:absolute;
+	width: 352px;
+    height: 316px;
+    left: -23px;
+    top: -124px;
+}
+#click_tag{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px; 
+	top: 0px;
+}
+#border{
+	top: 0px;
+    left: 0px;
+	position:absolute;	
+    border: solid 1px #666;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	pointer-events: none;
+}
+#magentaBg {
+	background: no-repeat url("../images/magentaBg.jpg");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+.bells {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px
+}
+#bell_0 {
+	background: no-repeat url("../images/bell_a.png");
+	position: absolute;
+    left: 172px;
+    top: -4px;
+    width: 30px;
+    height: 30px;
+	background-size: contain;
+}
+#bell_1 {
+	background: no-repeat url("../images/bell_b.png");
+	position: absolute;
+    left: 21px;
+    top: 16px;
+    width: 42px;
+    height: 45px;
+	background-size: contain;
+}
+#bell_2 {
+	background: no-repeat url("../images/bell_c.png");
+	position: absolute;
+    left: 229px;
+    top: 46px;
+    width: 33px;
+    height: 33px;
+	background-size: contain;
+}
+#bell_3 {
+	background: no-repeat url("../images/bell_d.png");
+	position: absolute;
+    left: -20px;
+    top: 150px;
+    width: 73px;
+    height: 75px;
+	background-size: contain;
+}
+#bell_4 {
+	background: no-repeat url("../images/bell_e.png");
+	position: absolute;
+    left: 18px;
+    top: 120px;
+    width: 63px;
+    height: 64px;
+	background-size: contain;
+}
+#bell_5 {
+	background: no-repeat url("../images/bell_f.png");
+	position: absolute;
+    left: 260px;
+    top: 148px;
+    width: 45px;
+    height: 45px;
+	background-size: contain;
+}
+#bell_6 {
+	background: no-repeat url("../images/bell_g.png");
+	position: absolute;
+    left: 87px;
+    top: 203px;
+    width: 30px;
+    height: 29px;
+	background-size: contain;
+}
+#bell_7 {
+	background: no-repeat url("../images/bell_h.png");
+	position: absolute;
+    left: 190px;
+    top: 196px;
+    width: 74px;
+    height: 76px;
+	background-size: contain;
+}
+#bell_8 {
+	background-image: url("../images/bell_c.png");
+	position: absolute;
+	left: -6px;
+	top: -103px;
+	width: 69px;
+	height: 68px;
+	background-size:contain;
+}
+#bell_9 {
+	background-image: url("../images/bell_b.png");
+	position: absolute;
+	left: 255px;
+	top: -65px;
+	width: 70px;
+	height: 74px;
+	background-size:contain;
+}
+/* ---- Banner Content --- */
+#logo2_1 {
+	background: no-repeat url("../images/logo2_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#text2_1 {
+	background: no-repeat url("../images/text2_1.png");
+	position:absolute;
+	width: 300px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+	background-size: contain;
+}
+#text2_2 {
+	position: absolute;
+	width: 259px;
+    height: 65px;
+    left: 60px;
+    top: 116px;
+}
+#bellF2_0 {
+	background: no-repeat url("../images/bell_a.png");
+	position: absolute;
+    left: 58px;
+    top: 192px;
+    width: 28px;
+    height: 30px;
+	background-size: contain;
+}
+#bellF2_1 {
+	background: no-repeat url("../images/bell_b.png");
+	position: absolute;
+	left: 266px;
+    top: 30px;
+    width: 42px;
+    height: 44px;
+	background-size: contain;
+}
+#bellF2_2 {
+	background: no-repeat url("../images/bell_e.png");
+	position: absolute;
+    left: -10px;
+    top: 202px;
+    width: 63px;
+    height: 64px;
+	background-size: contain;
+}
+#bellF2_3 {
+	background: no-repeat url("../images/bell_f.png");
+	position: absolute;
+    left: 106px;
+    top: -7px;
+    width: 45px;
+    height: 45px;
+	background-size: contain;
+}
+#text3_1 {
+	background: no-repeat url("../images/text3_1.png");
+	position:absolute;
+	width: 300px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+	background-size: contain;
+}
+#text3_2 {
+	position: absolute;
+    width: 313px;
+    height: 82px;
+    left: 42px;
+    top: 107px;
+}
+/* F4 bells */
+#bellF4_0 {
+	background: no-repeat url("../images/bell_a.png");
+	position: absolute;
+    left: 193px;
+    top: -7px;
+    width: 28px;
+    height: 30px;
+	background-size: contain;
+}
+#bellF4_1 {
+	background: no-repeat url("../images/bell_e.png");
+	position: absolute;
+    left: 250px;
+    top: 11px;
+    width: 63px;
+    height: 64px;
+	background-size: contain;
+}
+#logo4_1 {
+	background: no-repeat url("../images/logo4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#phone4_1{
+	background: no-repeat url("../images/phone4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#phone4_2{
+	background: no-repeat url("../images/phone4_2.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#phone4_3{
+	background: no-repeat url("../images/phone4_3.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#phone4_4{
+	background: no-repeat url("../images/phone4_4.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#phoneLogos4_1{
+	background: no-repeat url("../images/phoneLogos4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#text4_1 {
+	background: no-repeat url("../images/text4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#text4_2 {
+	background: no-repeat url("../images/text4_2.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#text4_3 {
+	background: no-repeat url("../images/text4_3.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#legal4_1 {
+	background: no-repeat url("../images/legal4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+#cta4_1 {
+	background: no-repeat url("../images/cta4_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+/* #legal_over {
+	background: no-repeat url("../images/legal_over.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px;
+	pointer-events: none;
+	top: 0px;
+	background-size: contain;
+} */
+/* #legal_hover {
+	position: absolute;
+	width: 105px;
+    height: 14px;
+    left: 149px;
+    bottom: 0px;
+	background-color: green;
+} */
+/* ---- Banner Content ^ --- */
+.verticalAlignCenter{
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+/* # {
+	background: no-repeat url("../images/.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+} */
