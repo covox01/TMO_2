@@ -30,10 +30,11 @@ a.divlink {
 	height: 250px;
 }
 #banner {
-	position: absolute;
+	position: relative;
 	background: white;
 	overflow: hidden; 
-	opacity: 0;
+   opacity: 0;
+   margin: 0 auto;
 	cursor: pointer;
 }
 #bg{
